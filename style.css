@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.topo {
+    background-color:#CF2B2B;
+    position: fixed;
+    width: 100%;
+}
+
+.texto-topo {
+    margin: 8px 0px 18px 21px;
+    color: #ffffff;
+}
+
+.titulo {
+    font-size: 44px;
+}
+
+.subtitulo {
+    font-size: 18px;
+}
