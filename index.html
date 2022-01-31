@@ -32,15 +32,23 @@
                         <div class="item-conteudo">
                             <img class="img-item" src="Media/Empanado.jpg" alt="Frango empanado">
                             <h1 class="titulo-item">Frango Empanado</h1>
-                            <p class="descricao-item">Um pouco de batata, um pouco de salada</p>
-                            <p class="preco">R$ 12,00</p>
+                            <p class="descricao-item">Um pouco de batata,<br> um pouco de salada</p>
+                            <p class="preco">R$ 10,00</p>
                         </div>
                     </div>
                     <div onclick="escolherEmpanado()" class="item empanado">
                         <div class="item-conteudo">
-                            <img class="img-item" src="Media/Parmegiana.jpg" alt="Frango empanado">
+                            <img class="img-item" src="Media/Parmegiana.jpg" alt="Frango Parmegiana">
                             <h1 class="titulo-item">Frango Parmegiana</h1>
-                            <p class="descricao-item">Um pouco de batata, um pouco de salada</p>
+                            <p class="descricao-item">Um pouco de batata,<br> um pouco de salada</p>
+                            <p class="preco">R$ 12,00</p>
+                        </div>
+                    </div>
+                    <div onclick="escolherGrelhado()" class="item grelhado">
+                        <div class="item-conteudo">
+                            <img class="img-item" src="Media/Grelhado.png" alt="Frango Grelhado">
+                            <h1 class="titulo-item">Frango Parmegiana</h1>
+                            <p class="descricao-item">Um pouco de batata,<br> um pouco de salada</p>
                             <p class="preco">R$ 12,00</p>
                         </div>
                     </div>
@@ -56,20 +64,20 @@
                             <img class="img-item" src="Media/Guarana.jpg" alt="Guarana">
                             <h1 class="titulo-item">Guarana gelado</h1>
                             <p class="descricao-item">Lata 350ml</p>
-                            <p class="preco">R$ 6,00</p>
+                            <p class="preco">R$ 5,00</p>
                         </div>
                     </div>
                     <div onclick="escolherCoca()" class="item coca">
                         <div class="item-conteudo">
-                            <img class="img-item" src="Media/Coca.png" alt="Guarana">
+                            <img class="img-item" src="Media/Coca.png" alt="Coca">
                             <h1 class="titulo-item">Coquinha gelada</h1>
                             <p class="descricao-item">Lata 350ml</p>
                             <p class="preco">R$ 6,00</p>
                         </div>
                     </div>
-                    <div onclick="escolherGuarana()" class="item guarana">
+                    <div onclick="escolherPepsi()" class="item pepsi">
                         <div class="item-conteudo">
-                            <img class="img-item" src="Media/Guarana.jpg" alt="Guarana">
+                            <img class="img-item" src="Media/pepsi.jpg" alt="Pepsi">
                             <h1 class="titulo-item">Guarana gelado</h1>
                             <p class="descricao-item">Lata 350ml</p>
                             <p class="preco">R$ 6,00</p>
@@ -84,18 +92,26 @@
                 <div class="itens">
                     <div onclick="escolherPudim()" class="item pudim">
                         <div class="item-conteudo">
-                            <img class="img-item" src="Media/pudim.jpg" alt="Guarana">
+                            <img class="img-item" src="Media/pudim.jpg" alt="Pudim">
                             <h1 class="titulo-item">Pudim</h1>
                             <p class="descricao-item">Apenas pudim</p>
-                            <p class="preco">R$ 7,90</p>
+                            <p class="preco">R$ 8,00</p>
                         </div>
                     </div>
                     <div onclick="escolherPave()" class="item pave">
                         <div class="item-conteudo">
                             <img class="img-item" src="Media/Pave.jpg" alt="Pavê">
                             <h1 class="titulo-item">Pavê</h1>
-                            <p class="descricao-item">Apenas pavê (não pra comer)</p>
-                            <p class="preco">R$ 7,90</p>
+                            <p class="descricao-item">Apenas pavê<br>(não pra comer)</p>
+                            <p class="preco">R$ 10,00</p>
+                        </div>
+                    </div>
+                    <div onclick="escolherBolo()" class="item bolo">
+                        <div class="item-conteudo">
+                            <img class="img-item" src="Media/bolo.jpg" alt="Bolo">
+                            <h1 class="titulo-item">Pavê</h1>
+                            <p class="descricao-item">Apenas pavê<br> (não pra comer)</p>
+                            <p class="preco">R$ 10,00</p>
                         </div>
                     </div>
                 </div>
@@ -105,7 +121,7 @@
     <footer>
         <div class="fundo">
             <div class="botao">
-                <button onclick="fecharPedido()" class="confirmacao"><p>Selecione os 3 itens para fechar o pedido</p></button>
+                <button onclick="fecharPedido()" class="confirmacao"><p class="botao-texto">Selecione os 3 itens para fechar o pedido</p></button>
             </div>
         </div>
     </footer>

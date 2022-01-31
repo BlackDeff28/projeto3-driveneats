@@ -43,7 +43,16 @@ footer {
 .botao {
     margin-top: 15px;
     display: flex;
+    color: #CBCBCB;
+    
+}
 
+.botao-texto {
+    align-items: ;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 .confirmacao {
@@ -135,4 +144,8 @@ main {
 
 .verde-botao {
     background-color: green;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
 }
