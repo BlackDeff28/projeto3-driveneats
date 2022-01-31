@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <title>DrivenEats</title>
 </head>
 <body>
@@ -19,52 +25,60 @@
     </header>
     <main>
         <div class="pratos">
-            <div><h1 class="titulo">Primeiro, seu prato</h1></div>
+            <div><h1 class="tituloPrato">Primeiro, seu prato</h1></div>
             <div class="prato">
                 <div class="itens">
                     <div onclick="escolherParmegiana()" class="item parmegiana">
                         <div class="item-conteudo">
-                            <img class="img-item" src="Media/bddf3471-056d-42ac-82fb-e1efe1cff7a0.jpeg" alt="Frango empanado">
-                            <h1 class="titulo-item">Frango Yin Yang</h1>
+                            <img class="img-item" src="Media/Empanado.jpg" alt="Frango empanado">
+                            <h1 class="titulo-item">Frango Empanado</h1>
                             <p class="descricao-item">Um pouco de batata, um pouco de salada</p>
-                            <p>R$ 14,90</p>
+                            <p class="preco">R$ 12,00</p>
                         </div>
                     </div>
                     <div onclick="escolherEmpanado()" class="item empanado">
                         <div class="item-conteudo">
-                            <img class="img-item" src="Media/bddf3471-056d-42ac-82fb-e1efe1cff7a0.jpeg" alt="Frango empanado">
-                            <h1 class="titulo-item">Frango Yin Yang</h1>
+                            <img class="img-item" src="Media/Parmegiana.jpg" alt="Frango empanado">
+                            <h1 class="titulo-item">Frango Parmegiana</h1>
                             <p class="descricao-item">Um pouco de batata, um pouco de salada</p>
-                            <p>R$ 14,90</p>
+                            <p class="preco">R$ 12,00</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="tipo-prato">
-                <h1 class="titulo">Agora, sua bebida</h1>
+                <h1 class="tituloPrato">Agora, sua bebida</h1>
             </div>
             <div class="prato">
                 <div class="itens">
                     <div onclick="escolherGuarana()" class="item guarana">
                         <div class="item-conteudo">
                             <img class="img-item" src="Media/Guarana.jpg" alt="Guarana">
-                            <h1 class="titulo-item">Coquinha gelada</h1>
+                            <h1 class="titulo-item">Guarana gelado</h1>
                             <p class="descricao-item">Lata 350ml</p>
-                            <p>R$ 4,90</p>
+                            <p class="preco">R$ 6,00</p>
                         </div>
                     </div>
                     <div onclick="escolherCoca()" class="item coca">
                         <div class="item-conteudo">
-                            <img class="img-item" src="Media/Guarana.jpg" alt="Guarana">
+                            <img class="img-item" src="Media/Coca.png" alt="Guarana">
                             <h1 class="titulo-item">Coquinha gelada</h1>
                             <p class="descricao-item">Lata 350ml</p>
-                            <p>R$ 4,90</p>
+                            <p class="preco">R$ 6,00</p>
+                        </div>
+                    </div>
+                    <div onclick="escolherGuarana()" class="item guarana">
+                        <div class="item-conteudo">
+                            <img class="img-item" src="Media/Guarana.jpg" alt="Guarana">
+                            <h1 class="titulo-item">Guarana gelado</h1>
+                            <p class="descricao-item">Lata 350ml</p>
+                            <p class="preco">R$ 6,00</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="tipo-prato">
-                <h1 class="titulo">Por fim, sua sobremesa</h1>
+                <h1 class="tituloPrato">Por fim, sua sobremesa</h1>
             </div>
             <div class="prato">
                 <div class="itens">
@@ -73,15 +87,15 @@
                             <img class="img-item" src="Media/pudim.jpg" alt="Guarana">
                             <h1 class="titulo-item">Pudim</h1>
                             <p class="descricao-item">Apenas pudim</p>
-                            <p>R$ 7,90</p>
+                            <p class="preco">R$ 7,90</p>
                         </div>
                     </div>
                     <div onclick="escolherPave()" class="item pave">
                         <div class="item-conteudo">
-                            <img class="img-item" src="Media/pudim.jpg" alt="Guarana">
-                            <h1 class="titulo-item">Pudim</h1>
-                            <p class="descricao-item">Apenas pudim</p>
-                            <p>R$ 7,90</p>
+                            <img class="img-item" src="Media/Pave.jpg" alt="Pavê">
+                            <h1 class="titulo-item">Pavê</h1>
+                            <p class="descricao-item">Apenas pavê (não pra comer)</p>
+                            <p class="preco">R$ 7,90</p>
                         </div>
                     </div>
                 </div>
