@@ -21,6 +21,9 @@ function escolherEmpanado(){
     document.querySelector(".empanado").style.borderColor = "green"
     document.querySelector(".parmegiana").style.borderColor = "white"
     document.querySelector(".grelhado").style.borderColor = "white"
+    document.querySelector(".icone-prato1").style.display = "block"
+    document.querySelector(".icone-prato2").style.display = "none"
+    document.querySelector(".icone-prato3").style.display = "none"
     prato = "Empanado"
     precoPrato = 10.00
     feitoPrato = 1 
@@ -31,6 +34,9 @@ function escolherParmegiana(){
     document.querySelector(".parmegiana").style.borderColor = "green"
     document.querySelector(".empanado").style.borderColor = "white"
     document.querySelector(".grelhado").style.borderColor = "white"
+    document.querySelector(".icone-prato2").style.display = "block"
+    document.querySelector(".icone-prato3").style.display = "none"
+    document.querySelector(".icone-prato1").style.display = "none"
     prato = "Parmegiana"
     precoPrato = 12.00
     feitoPrato = 1
@@ -41,6 +47,9 @@ function escolherGrelhado(){
     document.querySelector(".grelhado").style.borderColor = "green"
     document.querySelector(".empanado").style.borderColor = "white"
     document.querySelector(".parmegiana").style.borderColor = "white"
+    document.querySelector(".icone-prato3").style.display = "block"
+    document.querySelector(".icone-prato2").style.display = "none"
+    document.querySelector(".icone-prato1").style.display = "none"
     prato = "Gelhado"
     precoPrato = 12.00
     feitoPrato = 1
@@ -51,6 +60,9 @@ function escolherGuarana(){
     document.querySelector(".guarana").style.borderColor = "green"
     document.querySelector(".coca").style.borderColor = "white"
     document.querySelector(".pepsi").style.borderColor = "white"
+    document.querySelector(".icone-bebida1").style.display = "block"
+    document.querySelector(".icone-bebida2").style.display = "none"
+    document.querySelector(".icone-bebida3").style.display = "none"
     bebida = "Guarana"
     precoBebida = 5.00
     feitoBebida = 1
@@ -61,6 +73,9 @@ function escolherCoca(){
     document.querySelector(".coca").style.borderColor = "green"
     document.querySelector(".guarana").style.borderColor = "white"
     document.querySelector(".pepsi").style.borderColor = "white"
+    document.querySelector(".icone-bebida2").style.display = "block"
+    document.querySelector(".icone-bebida1").style.display = "none"
+    document.querySelector(".icone-bebida3").style.display = "none"
     bebida = "Coca"
     precoBebida = 6.00
     feitoBebida = 1
@@ -71,6 +86,9 @@ function escolherPepsi(){
     document.querySelector(".pepsi").style.borderColor = "green"
     document.querySelector(".guarana").style.borderColor = "white"
     document.querySelector(".coca").style.borderColor = "white"
+    document.querySelector(".icone-bebida3").style.display = "block"
+    document.querySelector(".icone-bebida1").style.display = "none"
+    document.querySelector(".icone-bebida2").style.display = "none"
     bebida = "Pepsi"
     precoBebida = 6.00
     feitoBebida = 1
@@ -81,6 +99,9 @@ function escolherPudim(){
     document.querySelector(".pudim").style.borderColor = "green"
     document.querySelector(".pave").style.borderColor = "white"
     document.querySelector(".bolo").style.borderColor = "white"
+    document.querySelector(".icone-sobremesa1").style.display = "block"
+    document.querySelector(".icone-sobremesa2").style.display = "none"
+    document.querySelector(".icone-sobremesa3").style.display = "none"
     sobremesa = "Pudim"
     precoSobremesa = 8.00
     feitoSobremesa = 1
@@ -91,6 +112,9 @@ function escolherPave(){
     document.querySelector(".pave").style.borderColor = "green"
     document.querySelector(".pudim").style.borderColor = "white"
     document.querySelector(".bolo").style.borderColor = "white"
+    document.querySelector(".icone-sobremesa2").style.display = "block"
+    document.querySelector(".icone-sobremesa1").style.display = "none"
+    document.querySelector(".icone-sobremesa3").style.display = "none"
     sobremesa = "Pave"
     precoSobremesa = 10.00
     feitoSobremesa = 1
@@ -101,6 +125,9 @@ function escolherBolo(){
     document.querySelector(".bolo").style.borderColor = "green"
     document.querySelector(".pudim").style.borderColor = "white"
     document.querySelector(".pave").style.borderColor = "white"
+    document.querySelector(".icone-sobremesa3").style.display = "block"
+    document.querySelector(".icone-sobremesa1").style.display = "none"
+    document.querySelector(".icone-sobremesa2").style.display = "none"
     sobremesa = "Bolo"
     precoSobremesa = 10.00
     feitoSobremesa = 1
