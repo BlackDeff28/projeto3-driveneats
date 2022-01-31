@@ -78,6 +78,8 @@ main {
 
 .item {
     margin-right: 16px;
+    border: 5px solid;
+    border-color: white;
 }
 
 
@@ -98,4 +100,8 @@ main {
 
 .descricao-item {
     margin-bottom: 5px;
+}
+
+.verde-botao {
+    background-color: green;
 }
